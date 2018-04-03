@@ -1,0 +1,54 @@
+/*match game is a tutorial web game
+made to specification provided by
+codecademy*/
+html {
+  font-size:14px;
+  font-family:"Work Sans", sans-serif;
+  background-color:rgb(255,242,242);
+}
+
+.game-master {
+  margin-top:5.25rem;
+  background-color:rgb(255,242,242);
+}
+
+/*instructions styling*/
+#instructions {
+  background-color:rgb(255,242,242);
+  color: rgb(32,64,86);
+  height:100%;
+}
+
+#instructions h1 {
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+#instructions h5 {
+  font-weight:bold;
+  font-size:1rem;
+}
+
+#instructions p {
+  color:rgb(74,74,74);
+}
+
+
+/*game area styling*/
+.card {
+  font-weight:900;
+  font-size:7rem;
+  color:rgb(255,255,255);
+  height:12.5rem;
+  background-color:rgb(32,64,86);
+  border:4px solid #ffffff;
+  border-radius:8px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+}
+
+.face-up {
+
+}
